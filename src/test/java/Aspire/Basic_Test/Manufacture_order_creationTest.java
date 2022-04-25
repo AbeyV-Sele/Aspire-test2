@@ -45,9 +45,9 @@ public class Manufacture_order_creationTest extends Base_class{
 
 	}
 	
-	/*@AfterTest
+	@AfterTest
 	public static void driver_close() {
 		driver.close();
-	}*/
+	}
 
 }

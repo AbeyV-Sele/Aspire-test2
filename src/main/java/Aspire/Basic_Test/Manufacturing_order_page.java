@@ -20,7 +20,7 @@ public class Manufacturing_order_page {
 	By done = By.xpath("(//button[@name='button_mark_done'])[4]");
 	By confirm_alert = By.xpath("//footer[@class='modal-footer']/button[1]");
 	By Apply = By.xpath("//footer/button[1]");
-	By verify_name = By.xpath(("//a[@name='product_id']/span");
+	By verify_name = By.xpath("//a[@name='product_id']/span");
 
 
 
