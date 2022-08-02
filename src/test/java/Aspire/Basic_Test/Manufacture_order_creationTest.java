@@ -1,10 +1,18 @@
 package Aspire.Basic_Test;
 
+import java.io.IOException;
+
 import org.openqa.selenium.SessionNotCreatedException;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import Operations.Inventory_Menu;
+import Operations.Inventory_Test;
+import Operations.Login_Test;
+import Operations.Products;
+import Resources.Base_class;
 
 public class Manufacture_order_creationTest extends Base_class{
 
@@ -18,7 +26,7 @@ public class Manufacture_order_creationTest extends Base_class{
 
 
 	@BeforeTest
-	public static void driver_Intilize() {
+	public  void driver_Intilize() throws IOException {
 		driver = driver_Initilize();
 		login = new Login_Test(driver);
 		Inventory = new Inventory_Test(driver);

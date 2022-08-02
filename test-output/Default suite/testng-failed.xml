@@ -6,6 +6,7 @@
       <class name="Aspire.Basic_Test.Manufacture_order_creationTest">
         <methods>
           <include name="order_creation"/>
+          <include name="driver_close"/>
           <include name="driver_Intilize"/>
         </methods>
       </class> <!-- Aspire.Basic_Test.Manufacture_order_creationTest -->
